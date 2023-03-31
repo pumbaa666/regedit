@@ -1,0 +1,48 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\Pumbaa]
+"MUIVerb"="Pumbaa"
+"SubCommands"="CommandPrompt;FolderExploder;TReSS"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\CommandPrompt]
+@="cmd"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\CommandPrompt\command]
+@="cmd.exe /k cd \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FolderExploder]
+@="Folder explode"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FolderExploder\command]
+@="D:\\Programmation\\Java\\Workspace\\FolderExploder\\folderExploader.bat \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\TReSS]
+@="Tout renommer sans soucis"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\TReSS\command]
+@="D:\\Programmation\\Java\\Workspace\\TReSS\\TReSS.bat \"%1\""
+
+
+
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Pumbaa]
+"MUIVerb"="Pumbaa"
+"SubCommands"="CommandPromptBack;FolderExploderBack;TReSSBack"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\CommandPromptBack]
+@="cmd"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\CommandPromptBack\command]
+@="cmd.exe /k cd \"%V\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FolderExploderBack]
+@="Folder explode"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FolderExploderBack\command]
+@="D:\\Programmation\\Java\\Workspace\\FolderExploder\\folderExploader.bat \"%V\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\TReSSBack]
+@="Tout renommer sans soucis"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\TReSSBack\command]
+@="D:\\Programmation\\Java\\Workspace\\TReSS\\TReSS.bat \"%V\""
